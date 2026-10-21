@@ -2,7 +2,7 @@ from langchain_core.language_models import LanguageModelInput
 from langchain_core.messages import AIMessage
 from langchain_core.runnables import Runnable
 
-from ..prompts.summary_prompt import create_summary_prompt
+from agentic_projects.prompts.summary_prompt import create_summary_prompt
 
 
 class SummaryChian:

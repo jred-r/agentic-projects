@@ -1,5 +1,5 @@
-from .chains.summary_chain import SummaryChian
-from .model import LLMModel
+from agentic_projects.chains.summary_chain import SummaryChian
+from agentic_projects.model.llm_model import LLMModel
 
 
 class App:
